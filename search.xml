@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>headless 组件设计</title>
+      <link href="/2023/03/08/headless-ui/"/>
+      <url>/2023/03/08/headless-ui/</url>
+      
+        <content type="html"><![CDATA[<h1 id="headless-ui-介绍"><a class="markdownIt-Anchor" href="#headless-ui-介绍"></a> Headless UI 介绍</h1><p>因为每个业务的发展不一样，设计也不同，一般前端业务发展到一定的承度都会输出一些自己的组件库，类似于 <code>Material ui</code> 、<code>Antd</code> 、<code>Arco</code> 等都是有自己的业务特色的组件库，因为这些组件库功能大多相似更多的是UI上的差异。所以也有一些重复的代码逻辑和设计思想。这时候自然就有人想到了能不能做到UI和组件逻辑分离。这样只要逻辑一致各个团队都可以自定义自己的 <code>UI</code>，本质上是一种开闭原则的思想。这样的背景下诞生了 <code>Headless UI</code> 这个概念, 可能命名上有参考 <code>Headless Browser</code>（无用户操作界面的浏览器）。</p><h1 id="组件分析"><a class="markdownIt-Anchor" href="#组件分析"></a> 组件分析</h1><p>当前已经有很多组件库设计采用了 <code>Headless UI</code> 都设计思想。例如：</p><h1 id="设计组件"><a class="markdownIt-Anchor" href="#设计组件"></a> 设计组件</h1><h1 id="使用组件"><a class="markdownIt-Anchor" href="#使用组件"></a> 使用组件</h1><h1 id="参考项目"><a class="markdownIt-Anchor" href="#参考项目"></a> 参考项目</h1><ul><li><a href="https://headlessui.com/">https://headlessui.com/</a></li><li><a href="https://chakra-ui.com/docs/components">https://chakra-ui.com/docs/components</a><br />-<a href="https://github.com/jxom/awesome-react-headless-components">https://github.com/jxom/awesome-react-headless-components</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Knative Deploy Serverless</title>
       <link href="/2023/02/25/knative-service/"/>
       <url>/2023/02/25/knative-service/</url>
